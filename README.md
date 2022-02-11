@@ -3,8 +3,6 @@
 ## The main Frameworks included in the project:
 - Selenium Webdriver
 - TestNG
-- Extent Reports
-
 
 ## Design implementation:
 - Page Object Model (POM) design pattern
