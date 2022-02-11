@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AmazonTestCases">
+	<test name="CurrencyTest">
+		<classes>
+			<class name="Tests.CurrencyTest">
+				 <methods>
+					<include name= "verifyCurrencyChanged"/>
+				</methods>
+			</class>			
+		</classes>
+	</test>
+	<test name="FiltrationTest">
+		<classes>
+			<class name="Tests.FiltrationTest">
+				 <methods>
+					<include name= "testfilterByDep"/>
+				</methods>
+			</class>			
+		</classes>
+	</test>
+</suite>

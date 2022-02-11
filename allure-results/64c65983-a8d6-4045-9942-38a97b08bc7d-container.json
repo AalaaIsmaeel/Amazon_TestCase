@@ -1,0 +1,1 @@
+{"uuid":"64c65983-a8d6-4045-9942-38a97b08bc7d","name":"Tests.CurrencyTest","children":["e9505f14-5ec7-4c89-ab6c-3589d66ae8fc"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1644622192327,"stop":1644622196752}],"afters":[],"links":[],"start":1644622192293,"stop":1644622204811}

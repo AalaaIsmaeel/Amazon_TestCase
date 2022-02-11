@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-12T03:38:25 GST" name="AmazonTestCases" finished-at="2022-02-12T03:38:53 GST" duration-ms="28131">
+    <groups>
+    </groups>
+    <test started-at="2022-02-12T03:38:25 GST" name="CurrencyTest" finished-at="2022-02-12T03:38:38 GST" duration-ms="13406">
+      <class name="Tests.CurrencyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CurrencyTest@72cc7e6f]" started-at="2022-02-12T03:38:25 GST" name="setUp" finished-at="2022-02-12T03:38:29 GST" duration-ms="4281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCurrencyChanged()[pri:0, instance:Tests.CurrencyTest@72cc7e6f]" started-at="2022-02-12T03:38:29 GST" name="verifyCurrencyChanged" finished-at="2022-02-12T03:38:38 GST" duration-ms="8655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrencyChanged -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Tests.CurrencyTest@72cc7e6f]" started-at="2022-02-12T03:38:38 GST" name="AfterMethod" finished-at="2022-02-12T03:38:38 GST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- Tests.CurrencyTest -->
+    </test> <!-- CurrencyTest -->
+    <test started-at="2022-02-12T03:38:38 GST" name="FiltrationTest" finished-at="2022-02-12T03:38:53 GST" duration-ms="14648">
+      <class name="Tests.FiltrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.FiltrationTest@8462f31]" started-at="2022-02-12T03:38:38 GST" name="setUp" finished-at="2022-02-12T03:38:42 GST" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testfilterByDep()[pri:0, instance:Tests.FiltrationTest@8462f31]" started-at="2022-02-12T03:38:42 GST" name="testfilterByDep" finished-at="2022-02-12T03:38:52 GST" duration-ms="10369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfilterByDep -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Tests.FiltrationTest@8462f31]" started-at="2022-02-12T03:38:52 GST" name="AfterMethod" finished-at="2022-02-12T03:38:53 GST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- Tests.FiltrationTest -->
+    </test> <!-- FiltrationTest -->
+  </suite> <!-- AmazonTestCases -->
+</testng-results>
