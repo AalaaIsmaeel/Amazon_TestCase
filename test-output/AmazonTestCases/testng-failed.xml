@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonTestCases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FiltrationTest(failed)">
+    <classes>
+      <class name="Tests.FiltrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testfilterByDep"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- Tests.FiltrationTest -->
+    </classes>
+  </test> <!-- FiltrationTest(failed) -->
+</suite> <!-- Failed suite [AmazonTestCases] -->

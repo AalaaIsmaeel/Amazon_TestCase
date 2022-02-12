@@ -29,14 +29,10 @@ public class FiltrationPage {
 
 	public void closetoasters() {
 
-		boolean isDeliveryAddressExist = driver.findElements(changeDeliveryAddressToaster).size() != 0;
+		boolean isDeliveryAddressExist = driver.findElements(closeDeliveryToaster).size() != 0;
 		boolean isShoppingToasterExist = driver.findElements(shoppingToaster).size() != 0;
-		String deliveryToasterCssStyle = isDeliveryAddressExist
-				? driver.findElement(changeDeliveryAddressToaster).getCssValue("display")
-				: "";
-		String shoppingToasterCssStyle = isShoppingToasterExist
-				? driver.findElement(shoppingToaster).getCssValue("display")
-				: "";
+		String deliveryToasterCssStyle = isDeliveryAddressExist	? driver.findElement(closeDeliveryToaster).getCssValue("display"): "";
+		String shoppingToasterCssStyle = isShoppingToasterExist	? driver.findElement(shoppingToaster).getCssValue("display"): "";
 //		System.out.println("delivery address toaster" + driver.findElements(changeDeliveryAddressToaster).size());
 //		System.out.println("shopping toaster" + driver.findElements(shoppingToaster).size());
 		if (isDeliveryAddressExist && deliveryToasterCssStyle != "none") {

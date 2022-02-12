@@ -50,7 +50,7 @@ public class CurrencyPage {
 
 	 
 	 public List<String> retunListOfPrices() {
-		List<String> returnedResult = new ArrayList<>();
+		List<String> returnedResult = new ArrayList<String>();
 		List<WebElement> prices = driver.findElements(pricesList);
 		for(int i=0; i<prices.size();i++) {	
 			String listValues= prices.get(i).getText();	
