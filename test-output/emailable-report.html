@@ -9,14 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">AmazonTestCases</th></tr>
-<tr><td><a href="#t0">CurrencyTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,724</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">FiltrationTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,259</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">38,983</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">CurrencyTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">18,915</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">FiltrationTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,639</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">26,554</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AmazonTestCases</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CurrencyTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.CurrencyTest</td><td><a href="#m0">verifyCurrencyChanged</a></td><td rowspan="1">1644638107295</td><td rowspan="1">11553</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">FiltrationTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.FiltrationTest</td><td><a href="#m1">testfilterByDep</a></td><td rowspan="1">1644638124792</td><td rowspan="1">14568</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AmazonTestCases</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CurrencyTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.CurrencyTest</td><td><a href="#m0">verifyCurrencyChanged</a></td><td rowspan="1">1644820132158</td><td rowspan="1">12012</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">FiltrationTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.FiltrationTest</td><td><a href="#m1">testfilterByDep</a></td><td rowspan="1">1644820149356</td><td rowspan="1">2715</td></tr></tbody>
 </table>
 <h2>CurrencyTest</h2><h3 id="m0">Tests.CurrencyTest#verifyCurrencyChanged</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>FiltrationTest</h2><h3 id="m1">Tests.FiltrationTest#testfilterByDep</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FiltrationTest</h2><h3 id="m1">Tests.FiltrationTest#testfilterByDep</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/gp/goldbox?ref_=nav_cs_gb&quot; class=&quot;nav-a  &quot; tabindex=&quot;0&quot; data-csa-c-type=&quot;link&quot; data-csa-c-slot-id=&quot;nav_cs_0&quot; data-csa-c-content-id=&quot;nav_cs_gb&quot; data-csa-c-id=&quot;gfguw6-2b88pw-xb07ze-e7yetk&quot;&gt;...&lt;/a&gt; is not clickable at point (121, 79). Other element would receive the click: &lt;div data-toaster-blocking=&quot;0&quot; data-toaster-csrftoken=&quot;gDjVWVxVdKDbhMahq2Nx3abm8OBkAn4hF88fY1EAAAAMAAAAAGIJ9rVyYXcAAAAA&quot; data-toaster-slot=&quot;DEFAULT&quot; data-toaster-type=&quot;AIS_INGRESS&quot; aria-describedby=&quot;glow-toaster-body&quot; aria-labelledby=&quot;glow-toaster-title&quot; class=&quot;a-section glow-toaster glow-toaster-theme-default glow-toaster-slot-default nav-coreFlyout nav-flyout&quot; role=&quot;alertdialog&quot; style=&quot;&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-LUIHHGQB&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03e0878e0fa6f32309e89f8486bcac0e, clickElement {id=0e33f0f9-b1d1-4497-9294-63ce415eaa67}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\alaai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59103/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (03e0878e0fa6f32309e89f8486bcac0e)] -&gt; xpath: //div[@id=&quot;nav-xshop&quot;]//a[1]]
+Session ID: 03e0878e0fa6f32309e89f8486bcac0e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Pages.FiltrationPage.clickOnTodayDealLink(FiltrationPage.java:59)
+	at Tests.FiltrationTest.testfilterByDep(FiltrationTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

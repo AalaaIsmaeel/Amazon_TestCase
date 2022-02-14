@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
 import Pages.CurrencyPage;
 import Pages.HomePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.BrowserAction;
 
 public class CurrencyTest {
 
@@ -23,13 +24,16 @@ public class CurrencyTest {
 	
 	HomePage homePageObj;
 	CurrencyPage CurrencyPageObj;
+    BrowserAction Actions;
+
 
 	@BeforeClass
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
-		driver.manage().window().maximize();
-		homePageObj= new HomePage(driver);
+	    Actions = new BrowserAction(driver);
+        homePageObj= new HomePage(driver);
+		Actions.maximizeWindow(driver);
 	    CurrencyPageObj = new CurrencyPage(driver);
 	    homePageObj.navigateToHomePage();
 	}
@@ -42,11 +46,12 @@ public class CurrencyTest {
 		Assert.assertTrue(CurrencyPageObj.checkCurrency());
 
 	}
-	
-	  @AfterMethod
-		public void AfterMethod() {
-			driver.quit();
-		}
+	@AfterClass
+
+	public void teardown() {
+
+		Actions.tearDown();
+	}
 	
 
 }

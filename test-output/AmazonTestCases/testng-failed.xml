@@ -6,8 +6,8 @@
       <class name="Tests.FiltrationTest">
         <methods>
           <include name="setUp"/>
+          <include name="teardown"/>
           <include name="testfilterByDep"/>
-          <include name="AfterMethod"/>
         </methods>
       </class> <!-- Tests.FiltrationTest -->
     </classes>
